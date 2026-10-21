@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "appium-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["appium-mcp"],
+      "env": {
+        "ANDROID_HOME": "/Users/deivid.fuzari/Library/Android/sdk",
+        "CAPABILITIES_CONFIG": "/Users/deivid.fuzari/Projetos_qa/poc-mcp-appium/capabilities.json",
+        "NO_UI": "true"
+      }
+    }
+  }
+}

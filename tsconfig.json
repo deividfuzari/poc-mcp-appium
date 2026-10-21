@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES5", "dom"],
+    "typeRoots": ["./node_modules/@types", "./node_modules"],
+    "types": ["codeceptjs", "node"],
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

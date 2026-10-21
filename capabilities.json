@@ -1,0 +1,14 @@
+{
+  "android": {
+    "appium:app": "/Users/deivid.fuzari/Projetos_qa/poc-mcp-appium/app/wdio-native-demo-app.apk",
+    "appium:appPackage": "com.wdiodemoapp",
+    "appium:appActivity": "com.wdiodemoapp.MainActivity",
+    "appium:automationName": "UiAutomator2",
+    "appium:autoGrantPermissions": true,
+    "appium:newCommandTimeout": 300,
+    "appium:appWaitDuration": 60000,
+    "appium:androidInstallTimeout": 90000,
+    "appium:disableWindowAnimation": true,
+    "appium:noReset": true
+  }
+}

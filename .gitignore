@@ -1,0 +1,11 @@
+node_modules/
+output/
+*.log
+.DS_Store
+app/*.apk
+app/*.ipa
+app/*.app
+
+# Contém credenciais (BS_USER/BS_KEY). Use .env.app.example como modelo.
+.env.app
+.env.app.example
